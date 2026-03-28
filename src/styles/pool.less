@@ -1,0 +1,41 @@
+.pool-selector {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    h3 {
+        margin: 0 0 12px 0;
+        color: #333;
+    }
+
+    &__buttons {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+    }
+
+    &__btn {
+        padding: 10px 16px;
+        border: 2px solid #ddd;
+        background: white;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666;
+
+        &:hover {
+            border-color: #4169E1;
+            color: #4169E1;
+        }
+
+        &--active {
+            background: #4169E1;
+            color: white;
+            border-color: #4169E1;
+        }
+    }
+}
