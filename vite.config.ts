@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/card-simulator/',
+  base: '/Card-Simulator/',
   plugins: [react()],
   // 路径别名配置（解决TS路径提示问题，需配合tsconfig.json）
   resolve: {

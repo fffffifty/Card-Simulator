@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fffffifty.github.io/card-simulator/",
+  "homepage": "https://fffffifty.github.io/Card-Simulator/",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
